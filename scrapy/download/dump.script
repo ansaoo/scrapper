@@ -1,0 +1,5 @@
+.header off
+.mode tabs
+.nullvalue "0"
+.output recent_movies.csv
+select id,title,genre,synopsis,rate from movies where rate=0;
